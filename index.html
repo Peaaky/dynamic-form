@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/e66e7680b2.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div id="storyset">
+        <img src="./img/genz-pana.png" alt="Peoples Flying" width="800px" height="850px"/>
+    </div>
+    <div id="card">
+        <form method="POST" onsubmit="">
+            <label for="username ">Username</label>
+            <input type="text " id="username" name="username" autocomplete="off">
+
+            <label for="password ">Password</label>
+            <input type="password" id="password" name="password" autocomplete="off">
+        <div class="container">
+            <button type="submit" id="connect" class="button type3 ">
+                <span>Connect</span>
+            </button>
+            <i class="fa-solid fa-spinner " id="spinner" aria-hidden="true "></i>
+            <i class="fa-solid fa-check " id="check" aria-hidden="true "></i>
+        </div>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
